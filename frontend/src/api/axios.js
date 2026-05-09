@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://team-task-manager-4062.onrender.com/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://team-task-manager-hw7m.onrender.com/api',
 });
 
 
