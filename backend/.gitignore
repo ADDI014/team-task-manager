@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
-
 # Environment variables
 .env
 
@@ -12,6 +9,19 @@ logs
 *.log
 npm-debug.log*
 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build files
+dist/
+build/
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -19,3 +29,6 @@ Thumbs.db
 # IDE files
 .vscode/
 .idea/
+
+# Optional
+uploads/
